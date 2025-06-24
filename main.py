@@ -25,8 +25,8 @@ if __name__ == '__main__':
         sensor = bme280.BME280(i2c=i2c)
 
         # Conexão Wi-Fi
-        SSID = "#$MOOKE$#"
-        PASSWORD = "Ragnarock1233."
+        SSID = ""
+        PASSWORD = "."
 
         wifi = network.WLAN(network.STA_IF)
         wifi.active(True)
